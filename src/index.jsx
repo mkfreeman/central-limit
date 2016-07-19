@@ -22,7 +22,7 @@ var App = React.createClass ({
               <div>
                 <p>This is an attempt to visually explain the core concepts of the <a href="https://en.wikipedia.org/wiki/Central_limit_theorem" target="_blank">Central Limit Theorem</a>. By providing a variety of interactive components, this page seeks to provide an intuitive understanding of one of the foundational theories behind inferential statistics. It draws inspiration from other visual explanations, such as this one on <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">decision trees</a> and these wonderful projects from <a href="http://setosa.io/">setosa.io</a>. The code is <a href="http://www.github.com/mkfreeman/central-limit">on GitHub</a>.</p>
                 <p>
-                  Importantly, this <strong>is not</strong> a robust explanation of the theory, and it <strong>was not</strong> written by a formally trained statistician. If you have any feedback (about the explanation, implementation, or design), feel free to reach out on <a href="http://twitter.com/mfviz" target="_blank">on twitter</a>.
+                  Importantly, this <strong>is not</strong> a robust explanation of the theory, and it <strong>was not</strong> written by a formally trained statistician. If you have any feedback (about the explanation, implementation, or design), feel free to reach out on <a href="http://twitter.com/mf_viz" target="_blank">on twitter</a>.
                 </p>
               </div>
             </div>
@@ -85,7 +85,7 @@ var App = React.createClass ({
                   <i>The central limit theorem (CLT) states that, given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined (finite) expected value and finite variance, will be approximately normally distributed, regardless of the underlying distribution.</i>
                 </blockquote>
                 <p>
-                  Thanks for your attention, and again, feel free to reach out on <a href="http://twitter.com/mfviz" target="_blank">on twitter</a> to share this page or provide any feedback!
+                  Thanks for your attention, and again, feel free to reach out on <a href="http://twitter.com/mf_viz" target="_blank">on twitter</a> to share this page or provide any feedback!
                 </p>
               </div>
             </div>
