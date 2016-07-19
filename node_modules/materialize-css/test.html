@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="bin/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="extras/noUiSlider/nouislider.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="templates/parallax-template/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<h4>Resize your browser (smaller)</h4>
+
+ <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+<div class="card-content card blue lighten-5">
+                    <table id="selected_rules" class="striped responsive-table">
+                      <thead>
+                        <tr>
+                          <th>id</th>
+                          <th>Parameter</th>
+                          <th>Type</th>
+                          <th>Path</th>
+                          <th>occurance</th>
+                        </tr>
+                      </thead>
+                      <tbody id="body_table_rules">
+                      </tbody>
+                    </table>
+                    </div>
+This text and button will appear in the table. How do I prevent this?
+<a class="modal-trigger waves-effect waves-light btn-large blue" id="trigger_modal_rules">Generate rules</a>
+
+<div class="row">
+  <div class="col l4 red">1</div>
+  <div class="col l4 yellow">2</div>
+  <div class="col l4 push-l4 green">3</div>
+  <div class="col l4 pull-l4 cyan">4</div>
+  <div class="col l4 blue">5</div>
+  <div class="col l4 purple">6</div>
+</div>
+<!--this markup slips to the top and over the
+former hidden container on orientation change -->
+<div class="section cream-bg center-align about-us-section">
+    <div class="row container">
+        <div class="col s12 m10 push-m1 l8 push-l2">
+            <!-- headline goes here -->
+            STUFF
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col s12 m10 push-m1 l6 push-l3">
+            <!-- some other markup goes here -->
+            STUFF
+        </div>
+    </div>
+</div>
+
+<ul class="collapsible product-list" data-collapsible="expandable" style="max-height: 150px; overflow-x: hidden; overflow-y: auto;">
+    <li>
+        <div class="collapsible-header">
+            Title
+        </div>
+        <div class="collapsible-body green lighten-5">
+            <div class="container">
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">
+            Title
+        </div>
+        <div class="collapsible-body green lighten-5">
+            <div class="container">
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">
+            Title
+        </div>
+        <div class="collapsible-body green lighten-5">
+            <div class="container">
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">
+            Title
+        </div>
+        <div class="collapsible-body green lighten-5">
+            <div class="container">
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+                Content<br />
+            </div>
+        </div>
+    </li>
+</ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+<script src="http://materializecss.com/extras/noUiSlider/nouislider.js"></script>
+  <script>
+    (function($){
+  $(function(){
+
+    $('#select1').on('change', function(e) {
+      console.log(e);
+    });
+
+      }); // end of document ready
+})(jQuery); // end of jQuery name space
+  </script>
+
+  </body>
+</html>
