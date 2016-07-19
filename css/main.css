@@ -1,0 +1,119 @@
+.popLabel {
+  text-anchor:middle;
+  font-face:bold;
+  font-size:12px;
+  opacity:.7;
+  fill:black;
+}
+
+.sampleLabel {
+  text-anchor:middle;
+  font-face:bold;
+  font-size:12px;
+  opacity:.7;
+  fill:red;
+}
+
+.popMean {
+  stroke-width:2px;
+  stroke:black;
+}
+
+.sampleMean {
+  stroke-width:2px;
+  stroke:red;
+}
+
+circle.active {
+  stroke:red;
+}
+
+.circle {
+  fill-opacity:.05;
+}
+
+.popRect {
+  fill:none;
+  stroke:#d3d3d3;
+  stroke-width:1px;
+  z-index:-9999;
+}
+
+.histWrapper {
+  display:none;
+}
+
+.histWrapper.active {
+  display:block;
+}
+
+.histPath {
+  fill:none;
+  stroke:black;
+  stroke-opacity:.3;
+  stroke-width:1px;
+}
+
+.chartArea {
+  text-align:center;
+  display:block;
+}
+
+
+.sample-error.active{
+  display:block;
+}
+
+.sample-error {
+  display:none;
+}
+
+line.horizontal {
+  stroke-width:1px;
+  stroke:#d3d3d3;
+
+}
+
+.axisLabel {
+  text-anchor:middle;
+  opacity:.3;
+}
+
+text.lineLabel{
+  text-anchor:start;
+  opacity:.3;
+}
+
+nav .nav-wrapper a.page-title {
+    font-size: 36px;
+}
+nav {
+  text-align:center;
+}
+
+h2 {
+  font-weight:300;
+}
+
+footer.page-footer {
+  margin-top:0px;
+  padding-top:0px;
+}
+
+footer {
+  position:fixed;
+  width:100%;
+  bottom:0px;
+}
+
+.container {
+  margin-bottom:70px;
+}
+
+nav {
+  position:fixed;
+  top:0px;
+}
+.react-root .container {
+  margin-top:75px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "central-limit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Michael Freeman",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "d3":"^3",
+    "materialize-css": "^0.97.3",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-materialize": ">=0.14.0",
+    "gulp":"*",
+    "browserify":"*",
+    "babelify":"*",
+    "babel-preset-react":"*",
+    "babel-preset-es2015":"*",
+    "underscore":"*"
+  }
+}
