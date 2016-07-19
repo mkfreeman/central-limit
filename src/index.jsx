@@ -22,7 +22,7 @@ var App = React.createClass ({
               <div>
                 <p>This is an attempt to visually explain the core concepts of the <a href="https://en.wikipedia.org/wiki/Central_limit_theorem" target="_blank">Central Limit Theorem</a>. By providing a variety of interactive components, this page seeks to provide an intuitive understanding of one of the foundational theories behind inferential statistics. It draws inspiration from other visual explanations, such as this one on <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">decision trees</a> and these wonderful projects from <a href="http://setosa.io/">setosa.io</a>. The code is <a href="http://www.github.com/mkfreeman/central-limit">on GitHub</a>.</p>
                 <p>
-                  Importantly, this <strong>is not</strong> a robust explanation of the theory, and it <strong>was not</strong> written by a formally trained statistician. If you have any feedback (about the explanation, implementation, or design), feel free to reach out on <a href="http://twitter.com/mfviz" target="_blank">on twitter</a>
+                  Importantly, this <strong>is not</strong> a robust explanation of the theory, and it <strong>was not</strong> written by a formally trained statistician. If you have any feedback (about the explanation, implementation, or design), feel free to reach out on <a href="http://twitter.com/mfviz" target="_blank">on twitter</a>.
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ var App = React.createClass ({
               <div>
                 <p>The current visualization of our population's opinions as a density plot is a bit hard to decipher, so let's add a bit more information with a histogram of the opinions. This will better allow us to see the shape of the distribution:</p>
                 <Simulator charts={['popDistribution']} showHist={true} controls={[]} width={this.props.width} height={100}/>
-                <p>Clearly, the distribution of our data is <strong>not</strong> normal. While many natually occuring phenomenon happen to be normally distributed, many are not. Luckily, the Central Limit Theorem provides us with a strong foundation for discussing the estimation of population parameters <i>regardless</i> of whether or not the event is noramally distributed.</p>
+                <p>Clearly, the distribution of our data is <strong>not</strong> normal. While many natually occuring phenomenon happen to be normally distributed, many are not. Luckily, the Central Limit Theorem provides us with a strong foundation for discussing the estimation of population parameters <i>regardless</i> of whether or not the event is normally distributed.</p>
                 <p>
                   As it turns out, the shape of the population's distribution isn't what will help us understand our ability to make inferences about the population. Instead, let's consider what the <strong>distribution of sample means</strong> (also known as the <strong>sampling distribution</strong>) looks like. Use the button below to take multiple repeated samples, and see how the <strong>sampling distribution</strong> begins to take form.</p>
                 <Simulator charts={['popDistribution', 'sampleMeans']} showHist={true} controls={['one_sample']} width={this.props.width} height={100}/>
