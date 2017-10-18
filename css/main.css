@@ -117,3 +117,7 @@ nav {
 .react-root .container {
   margin-top:75px;
 }
+
+#footer-container {
+  margin-bottom:0px;
+}
