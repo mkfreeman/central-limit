@@ -32,7 +32,7 @@ var App = React.createClass ({
             <div>
               <h2>A Simple Starting Point</h2>
               <div>
-                <p>In order to grapple with such an important theory, we'll consider a simple hypothetical situation. Let's imagine that there's a populaiton of 100 people with a distribution of opinions that range from, say, 0 - 100 on some issue. Its simple to consider those views represented along a horizontal axis as follows, with the mean opinion of that population labeled and shown as a dark line:</p>
+                <p>In order to grapple with such an important theory, we'll consider a simple hypothetical situation. Let's imagine that there's a population of 100 people with a distribution of opinions that range from, say, 0 - 100 on some issue. It's simple to consider those views represented along a horizontal axis as follows, with the mean opinion of that population labeled and shown as a dark line:</p>
                 <Simulator charts={['popDistribution']} controls={[]} width={this.props.width} height={57} />
                 <p>As a social scientist, you may be interested in measuring the disposition of this population, and describing it using information such as the mean opinion. Unfortunately, you may not have the time or funding to ask each individual their opinion. So, you may have to <strong>sample</strong> from the population at hand. Let's say you had enough time/effort to randomly sample <strong>ten individuals</strong> from your population of 100. This would give you <i>some</i> idea of how the population stands on the particular issue:</p>
                 <Simulator charts={['popDistribution']} controls={['one_sample']} width={this.props.width} height={57}/>
@@ -52,7 +52,7 @@ var App = React.createClass ({
                 <Simulator charts={['popDistribution', 'sampleMeans']} controls={['one_sample']} width={this.props.width} height={57}/>
               </div>
             </div>
-            <p>As we repeat this process, you may notice something interesting happen: the difference between our <storng>true population mean</storng> and the <storng>mean of our sample means</storng> begins to shrink. This makes sense, as it feels similar to simply drawing a larger sample (with replacement) from our population. Unfortunately, this doesn't solve the problem of limited resources for understanding a population's position on a particular issue. In order to understand the quality of a single estimate, we first need to understand what the <strong>distribution of sample means</strong> looks like.</p>
+            <p>As we repeat this process, you may notice something interesting happen: the difference between our <strong>true population mean</strong> and the <strong>mean of our sample means</strong> begins to shrink. This makes sense, as it feels similar to simply drawing a larger sample (with replacement) from our population. Unfortunately, this doesn't solve the problem of limited resources for understanding a population's position on a particular issue. In order to understand the quality of a single estimate, we first need to understand what the <strong>distribution of sample means</strong> looks like.</p>
           </section>
 
           <section>
@@ -61,7 +61,7 @@ var App = React.createClass ({
               <div>
                 <p>The current visualization of our population's opinions as a density plot is a bit hard to decipher, so let's add a bit more information with a histogram of the opinions. This will better allow us to see the shape of the distribution:</p>
                 <Simulator charts={['popDistribution']} showHist={true} controls={[]} width={this.props.width} height={100}/>
-                <p>Clearly, the distribution of our data is <strong>not</strong> normal. While many natually occuring phenomenon happen to be normally distributed, many are not. Luckily, the Central Limit Theorem provides us with a strong foundation for discussing the estimation of population parameters <i>regardless</i> of whether or not the event is normally distributed.</p>
+                <p>Clearly, the distribution of our data is <strong>not</strong> normal. While many naturally occuring phenomenon happen to be normally distributed, many are not. Luckily, the Central Limit Theorem provides us with a strong foundation for discussing the estimation of population parameters <i>regardless</i> of whether or not the event is normally distributed.</p>
                 <p>
                   As it turns out, the shape of the population's distribution isn't what will help us understand our ability to make inferences about the population. Instead, let's consider what the <strong>distribution of sample means</strong> (also known as the <strong>sampling distribution</strong>) looks like. Use the button below to take multiple repeated samples, and see how the <strong>sampling distribution</strong> begins to take form.</p>
                 <Simulator charts={['popDistribution', 'sampleMeans']} showHist={true} controls={['one_sample']} width={this.props.width} height={100}/>
@@ -79,7 +79,7 @@ var App = React.createClass ({
               <div>
                 <p>As the number of samples taken approaches infinity, the distribution of our sample means approximates the normal distribution. This foundational theory in statistics is what allows us to make inferences about populations based on an individual sample. Given our understanding of the normal distribution, we can easily discuss the probability of a value occuring given a mean. Conversely, we can then estimate <strong>the probability of a population mean given an observed sample mean</strong>. This not only allows us to provide reliable estimates of population values, but empowers us to quantify the confidence in our estimates (more on this in a future post). </p>
                 <p>
-                  Hopefully this explanation provided some intution to a generic defintion, such as this one from <a href="https://en.wikipedia.org/wiki/Central_limit_theorem" target="_blank">Wikipedia</a>:
+                  Hopefully this explanation provided some intuition to a generic definition, such as this one from <a href="https://en.wikipedia.org/wiki/Central_limit_theorem" target="_blank">Wikipedia</a>:
                 </p>
                 <blockquote>
                   <i>The central limit theorem (CLT) states that, given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined (finite) expected value and finite variance, will be approximately normally distributed, regardless of the underlying distribution.</i>
